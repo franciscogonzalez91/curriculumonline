@@ -1,0 +1,85 @@
+ol{
+
+}
+.container{
+	height: 100%;
+	width: 100%;
+	/*margin: 0 20px 0 20px;*/
+}
+.info-derecha{
+	width: 60%;	
+	height: 600px;
+	margin: 0 0 0 60px;
+}
+.info-izquierda{
+	width: 30%;
+	min-width: 348px;
+	height: 350px;
+	margin-left: 2%;
+}
+
+.info-derecha, .info-izquierda{	
+	float: left;	
+	margin-top: 20px;
+	border: 1px solid red !important;
+}
+
+.info-imagen{
+	width: 128px;
+	height: 128px;
+	margin: 13px auto auto auto; /*20px 0 0 35%;*/
+	border: 1px solid green !important;
+}
+
+.info-usuario{
+	width: 300px;
+	margin: auto;
+	margin-top: 30px;
+	
+}
+
+.info-usuario label{
+	width: 300px;
+	display: inline-block;
+	margin: auto;
+	margin-top: 5px;	
+	text-align: center;
+}
+
+@media (max-width: 1200px){
+	.info-derecha{
+		width: 58%;				
+	}
+}
+
+@media (max-width: 1069px){
+	.info-derecha{
+		width: 55%
+	}
+}
+
+/*& (max-height: 998px)*/
+@media (max-width: 998px) {
+	.info-derecha{
+		width: 55%;
+		margin-left: 40px;
+		/*margin: auto;
+		margin-top: 20px;
+		float: none;*/		 		
+	}
+	.info-izquierda{
+		/*width: 50%;
+		/*margin: auto;
+		margin-top: 20px;
+		float: none;*/		
+	}
+}
+@media (max-width: 769px){
+	.info-derecha, .info-izquierda{
+		width: 97%;
+		min-width: 691px;
+		margin-left: 10px;
+		margin-right: 30px; 
+	}
+}
+
